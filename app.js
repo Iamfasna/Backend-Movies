@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(express.json());
 
 app.use(cors({
-  origin: "*",
+  origin: 'https://cinemakaanuu.netlify.app',
   methods: ["GET", "POST"],
   credentials: true
 }));
